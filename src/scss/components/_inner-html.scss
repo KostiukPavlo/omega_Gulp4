@@ -1,0 +1,54 @@
+.inner-page {
+  .baner {
+    top: 30%;
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+
+    @include small-tablet {
+      top: 20%;
+    }
+
+    &_title {
+      font-weight: 700;
+      font-size: 38px;
+      line-height: 52px;
+      width: auto;
+      position: relative;
+      text-align: center;
+
+      @include mobile {
+        font-size: 32px;
+      }
+    }
+  }
+  .content {
+    margin: 60px auto 50px;
+    font-size: 14px;
+    line-height: 21px;
+    color: #79808e;
+  }
+  .report_btn {
+    width: 257px;
+    height: 50px;
+    background: #0067a3;
+    border-radius: 3px;
+    padding: 10px 24px;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  .related_title {
+    font-weight: 700;
+    font-size: 32px;
+    color: #576072;
+    text-align: center;
+    margin: 50px auto 30px;
+    font-size: 28px;
+  }
+  .blog {
+    margin: 0 0 95px;
+  }
+}

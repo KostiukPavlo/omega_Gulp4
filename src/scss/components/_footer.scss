@@ -1,0 +1,23 @@
+.footer {
+  background: #2c313a;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  font-family: "Work Sans";
+  font-style: normal;
+  line-height: 19px;
+  color: #ffffff;
+
+  &_social-link {
+    list-style: none;
+    display: flex;
+
+    &__item {
+      padding-left: 17px;
+    }
+  }
+}
